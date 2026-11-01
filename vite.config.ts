@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  assetsInclude: ['**/*.JPG', '**/*.jfif', '**/*.pdf'],
   base: process.env.VITE_BASE_PATH ?? '/',
 });
