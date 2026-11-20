@@ -13,9 +13,9 @@ npm run dev
 
 Create an optimized build with `npm run build`; preview it with `npm run preview`.
 
-## GitHub storage and later deployment
+## GitHub Pages deployment
 
-The current workflow only builds the project after pushes to `main`; it does not publish a website. Once the portfolio is reviewed, GitHub Pages deployment can be enabled in the workflow and repository Pages settings. Hash-based routes and the Vite base path are already configured for project-site hosting.
+Pushing to `main` builds and publishes the site with GitHub Actions. The repository must have GitHub Pages configured to use **GitHub Actions** as its build and deployment source. The site URL is `https://subzero1724.github.io/Portfolio/`. Hash-based routes and the Vite base path are configured for project-site hosting.
 
 ## Personalize before publishing
 
